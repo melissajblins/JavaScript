@@ -24,7 +24,7 @@ botaoAdicionar.addEventListener("click", function(event){
     formulario.reset();
 
     var mensagensErro = document.querySelector("#mensagens-erro");
-    mensagensErros.innerHTML = "";
+    mensagensErro.innerHTML = "";
 });
 
 function obtemPacienteDoFormulario(formulario){
